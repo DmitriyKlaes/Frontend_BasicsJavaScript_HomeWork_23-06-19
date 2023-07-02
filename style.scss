@@ -1,0 +1,28 @@
+.content {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cat {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    max-height: 500px;
+
+    &__heading {
+        color: purple;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    &__availability {
+        color: blue;
+    }
+}
